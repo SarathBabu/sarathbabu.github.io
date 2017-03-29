@@ -2,3 +2,41 @@
   border-radius:  50%;
   width: 100%;
 }
+
+.sbghio-feature-item {
+	margin-top: 2em;
+}
+
+.sbghio-feature-heading h2{
+	font-size: 40px;
+	padding-left: 15px;
+}
+
+.sbghio-feature-section {
+	border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+
+.sbghio-feature-carousel, .sbghio-feature-image {
+	margin-top: 2em;
+}
+
+
+
+.sbghio-feature-img {
+	margin: auto;
+	width: 70%;
+}
+
+.sbghio-feature-blurb {
+	margin-top: 2em;
+	float: right;
+}
+
+.sbghio-feature-blurb-text p {
+text-align: justify;
+}
+
+.sbghio-feature-blurb-playstore a img{
+	width: 100%;
+}
