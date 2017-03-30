@@ -1,6 +1,6 @@
 .circular-image {
-  border-radius:  50%;
-  width: 100%;
+	border-radius:  50%;
+	width: 100%;
 }
 
 .sbghio-feature-item {
@@ -21,22 +21,44 @@
 	margin-top: 2em;
 }
 
-
+.sbghio-feature-carousel-img {
+	margin:auto;
+	width: 70%;
+}
 
 .sbghio-feature-img {
+	height: 100%;
+}
+
+
+.sbghio-feature-img img{
+	max-width: 100%;  
 	margin: auto;
-	width: 70%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
 .sbghio-feature-blurb {
 	margin-top: 2em;
 	float: right;
+	display: inline-block;
+
 }
 
 .sbghio-feature-blurb-text p {
-text-align: justify;
+	text-align: justify;
 }
 
 .sbghio-feature-blurb-playstore a img{
 	width: 100%;
+}
+
+.sbghio-quote {
+	padding-bottom: 2em;
+}
+
+.sbghio-quote-person {
+	float: right;
 }
