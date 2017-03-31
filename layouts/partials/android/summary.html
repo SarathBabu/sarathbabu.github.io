@@ -5,39 +5,19 @@
 	<div class="sbghio-feature-section">
 		<div class="col-md-4 col-md-offset-1 col-sm-5 sbghio-feature-carousel">
 			<div class="owl-carousel-fullwidth owl-carousel-2">
+				{{range .Params.carousel}}
 				<div class="item">
 					<div class="col-md-12  col-sm-12 ">
 						<div class="row">
 							<div class="sbghio-feature-carousel-img"> 
-								<img src="/images/hijricalendar_1.png" alt="Images" class="img-responsive">
+								<img src="{{.}}" alt="Images" class="img-responsive">
 							</div>
 						</div>
 					</div>
-
 				</div>
-				<div class="item">
-					<div class="col-md-12 col-sm-12 ">
-						<div class="row">
-							<div class="sbghio-feature-carousel-img"> 
-								<img src="/images/hijricalendar_2.png" alt="Images" class="img-responsive">
-							</div>
-						</div>
-					</div>
-
-				</div>
-				<div class="item">
-					<div class="col-md-12 col-sm-12 ">
-						<div class="row">
-							<div  class="sbghio-feature-carousel-img"> 
-								<img src="/images/hijricalendar_2.png" alt="Images" class="img-responsive">
-							</div>
-						</div>
-					</div>
-
-				</div>
+				{{end}}
 			</div>
 		</div>
-
 		<div class="col-md-6 col-md-6-offset-1 col-sm-6 col-sm-6-offset-1 sbghio-feature-blurb">
 			<div class="sbghio-feature-blurb-text">
 				{{.Content}}
