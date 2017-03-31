@@ -1,0 +1,18 @@
+<div class="row row-pb-md">
+	<div class="col-md-12">
+		<ul id="gtco-post-list">
+			{{ range .Data.Pages }}
+			<li class="{{ if  eq .Params.span 3}}full{{else}}one-half{{end}} entry animate-box" data-animate-effect="fadeIn"> 
+				<a href="single.html">
+					<div class="entry-img" style="background-image: url(/images/img_1.jpg"></div>
+					<div class="entry-desc">
+						<h3>{{ .Title }}</h3>
+						<p>{{ .Content }}</p>
+					</div>
+				</a>
+				<a href="#" class="post-meta">Business  <span class="date-posted">4 days ago</span></a>
+			</li>
+			{{ end }}
+		</ul>	
+	</div>
+</div>
