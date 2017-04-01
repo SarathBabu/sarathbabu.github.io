@@ -2,12 +2,12 @@
 	<div class="col-md-12">
 		<ul id="gtco-post-list">
 			{{ range .Data.Pages }}
-			<li class="{{ if  eq .Params.span 3}}full{{else}}one-half{{end}} entry animate-box" data-animate-effect="fadeIn"> 
+			<li class="{{ if  eq .Params.span 1 }}full{{else}} {{ if  eq .Params.span .333}} one-third{{else}}two-third{{end}}{{end}} entry animate-box" data-animate-effect="fadeIn"> 
 				<a href="single.html">
 					<div class="entry-img" style="background-image: url(/images/img_1.jpg"></div>
 					<div class="entry-desc">
 						<h3>{{ .Title }}</h3>
-						<p>{{ .Content }}</p>
+						<p>{{ if  eq .Params.span 1 }}{{ .Summary|truncate 500 }}{{else}} {{ if  eq .Params.span .667}} {{ .Summary|truncate 400 }}{{else}}{{ .Summary|truncate 200 }}{{end}}{{end}}</p>
 					</div>
 				</a>
 				<a href="#" class="post-meta">Business  <span class="date-posted">4 days ago</span></a>

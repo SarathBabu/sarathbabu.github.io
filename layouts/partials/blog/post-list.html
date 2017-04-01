@@ -1,7 +1,7 @@
 <div id="fh5co-main" style="background: #e6e6e6;">
     <div class="container">
-        {{template "partials/blog/post-list-content.html"}}
-        {{template "partials/blog/post-list-pagination.html"}}
+        {{ template "partials/blog/post-list-content.html" . }}
+        {{ template "partials/blog/post-list-pagination.html" . }}
     </div>
-        {{ template "partials/commons/page-footer.html" .}}
+        {{ template "partials/commons/page-footer.html" . }}
 </div>
