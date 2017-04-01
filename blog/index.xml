@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Test Site</title>
-    <link>https://sarathbabu.github.io/index.xml</link>
-    <description>Recent content on A Test Site</description>
+    <title>Samaple Text on A Test Site</title>
+    <link>https://sarathbabu.github.io/blog/index.xml</link>
+    <description>Recent content in Samaple Text on A Test Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Feb 2017 11:27:27 -0400</lastBuildDate>
-    <atom:link href="https://sarathbabu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sarathbabu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>First blog</title>
@@ -54,40 +54,6 @@
 &lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;ldquo;Lorem ipsum dolor sit amet..&amp;rdquo;, comes from a line in section 1.10.32.&lt;/p&gt;
 
 &lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Android Icons Generator</title>
-      <link>https://sarathbabu.github.io/github/androidiconsgenerator/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sarathbabu.github.io/github/androidiconsgenerator/</guid>
-      <description>&lt;p&gt;A simple python script to genearte the generic icons for android applications. You don&amp;rsquo;t need any online application and downloding of archives and extraction. You can simply use this script to generate icons fron PNG images with which ever size (dpi value) you need and the color you like. You can also specify padding on the icon (dpi value) if you want. All you are left to do is simple copy paste the drawable folders into the project directory.&lt;/p&gt;
-
-&lt;p&gt;Just think how many times you need to change the size and/or color of icons in your application while development. If you depend on an online application it will be a boring task of uploading and downloading and extracting.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Easy Android</title>
-      <link>https://sarathbabu.github.io/github/easyandroid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sarathbabu.github.io/github/easyandroid/</guid>
-      <description>&lt;p&gt;This android library will lessen your soding efforts to do SQLite database migration, Requesting runtime pemission on devices with Android operating system following Lollipop, Runtime tracking the netwok status change. All these are usual coding requirements in an Android application development, it true that we all are already femiliar with these operations an wrote code manytime for these operations.&lt;/p&gt;
-
-&lt;p&gt;My effort is to make these functionalities(and many others in future) into a single resusable package which can be easily interated into the applications.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hijri Al Birrah</title>
-      <link>https://sarathbabu.github.io/android/calendar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sarathbabu.github.io/android/calendar/</guid>
-      <description>&lt;p&gt;It is a calendar application that can generate the hijra calendars upto 20784AD. This applcation is a realization of algorithms developed by Persion Name. Paerson name is an Indian, who was studying about the hijra calendar system for long time.It is the only application that can generate the hijra calendar upto 20784AD.&lt;/p&gt;
 </description>
     </item>
     

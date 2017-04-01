@@ -262,7 +262,8 @@ textarea {
 }
 
 .sf-menu a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
   padding: .75em 1em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -295,7 +296,7 @@ textarea {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, .6);
 }
 
 .sf-menu ul li:hover,
@@ -1181,6 +1182,7 @@ Components
 #fh5co-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding: 3em 0;
+  background: #ffffff;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
@@ -1488,13 +1490,13 @@ Components
 .owl-theme .owl-dots .owl-dot span {
   width: 15px;
   height: 15px;
-  background: #28bbf8;
+  background: none;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  border: 2px solid transparent;
+  border: 2px solid #28bbf8;
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
@@ -1502,8 +1504,8 @@ Components
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: none;
-  border: 2px solid #28bbf8;
+  background: #28bbf8;
+  border: 2px solid transparent;
 }
 
 /* Image Alignment */
