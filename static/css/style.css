@@ -33,8 +33,8 @@ body {
   font-family: 'Lato', arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
-  color: #2e2e2e;
+  font-weight: 400;
+  color: #444444;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -181,7 +181,7 @@ textarea {
 /* Header */
 #fh5co-header-section {
   width: 100%;
-  padding: 40px 0 30px 0;
+  padding: 40px 0 0 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -193,6 +193,7 @@ textarea {
   left: 0 !important;
   right: 0;
   z-index: 103;
+  background: rgba(0, 0, 0, 0.2);
 }
 #fh5co-header-section.fh5co-scrolled {
   padding: 0px 0;

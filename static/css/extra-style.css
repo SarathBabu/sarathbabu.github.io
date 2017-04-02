@@ -106,7 +106,7 @@
   width: 100%;
 }
 .gtco-cover .overlay {
-  z-index: 0;
+  z-index: 100;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -116,7 +116,7 @@
 }
 .gtco-cover > .gtco-container {
   position: relative;
-  z-index: 10;
+  z-index: 101;
 }
 @media screen and (max-width: 768px) {
   .gtco-cover {
@@ -125,7 +125,7 @@
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
-  z-index: 9;
+  z-index: 100;
   height: 900px;
   display: table;
   width: 100%;
@@ -202,7 +202,11 @@
 .mt-negative {
   top: -7em;
   position: relative;
-  z-index: 200;
+  z-index: 102;
+}
+
+.mb-negative {
+  margin-bottom: -7em;
 }
 
 article {
@@ -772,7 +776,7 @@ figure figcaption {
 #gtco-team,
 #gtco-contact,
 #gtco-footer {
-  padding: 7em 0;
+  padding: 0 0 0 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -786,7 +790,7 @@ figure figcaption {
   #gtco-team,
   #gtco-contact,
   #gtco-footer {
-    padding: 3em 0;
+    padding: 0 0 0 0;
   }
 }
 
@@ -1697,14 +1701,6 @@ figure figcaption {
   .gtco-nav-toggle {
     display: block;
   }
-}
-
-.font-roboto-mono {
-  font-family: "Roboto Mono", serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
 }
 
 /*
