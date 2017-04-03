@@ -2,3 +2,5 @@ languageCode = "en-us"
 title = "A Test Site"
 baseURL = "https://sarathbabu.github.io/"
 
+paginate = 3
+

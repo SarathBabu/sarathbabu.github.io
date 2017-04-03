@@ -1,7 +1,7 @@
 <div class="row row-pb-md">
 	<div class="col-md-12">
 		<ul id="gtco-post-list">
-			{{ range .Data.Pages }}
+			{{ range (.Paginator 3).Pages }}
 			<li class="{{ if  eq .Params.span 1 }}full{{else}} {{ if  eq .Params.span .333}} one-third{{else}}two-third{{end}}{{end}} entry animate-box" data-animate-effect="fadeIn"> 
 				<a href="single.html">
 					<div class="entry-img" style="background-image: url(/images/img_1.jpg"></div>
