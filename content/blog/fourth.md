@@ -1,7 +1,7 @@
 +++
 title = "First blog"
 date = "2017-02-21T11:27:27-04:00"
-span = 0.667
+span = 1
 +++
 
 # A sample heading

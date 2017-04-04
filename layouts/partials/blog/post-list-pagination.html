@@ -1,8 +1,8 @@
-
+{{ $pag := .Paginator }}
+{{ if gt $pag.TotalPages 1 }}
 <div class="row">
   <div class="col-md-12 text-center">
     <nav aria-label="Page navigation">
-    {{ $pag := .Paginator }}
       <ul class="pagination">
         <li {{ if not $pag.HasPrev }}class="disabled"{{ end }}>
           <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous">
@@ -21,3 +21,4 @@
     </nav>
   </div>
 </div>
+{{ end }}

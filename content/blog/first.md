@@ -1,7 +1,9 @@
 +++
 title = "First blog"
 date = "2017-02-21T11:27:27-04:00"
-span = 1
+span = 0.333
+[author]
+    full_name = "sarath"
 +++
 
 # A sample heading

@@ -5,9 +5,9 @@
 			<div class="col-md-7 text-left">
 				<div class="display-t">
 					<div class="display-tc animate-box" data-animate-effect="fadeInUp">
-						<span class="date-post">4 days ago</span>
-						<h1 class="mb30"><a href="#">How Web Hosting Can Impact Page Load Speed</a></h1>
-						<p>by <a href="#" class="text-link">Jean Smith</a></p>
+						<span class="date-post">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+						<h1 class="mb30"><a href="#">{{ .Title }}</a></h1>
+						<p>by <a href="#" class="text-link">{{ .Params.author.full_name }}</a></p>
 					</div>
 				</div>
 			</div>
