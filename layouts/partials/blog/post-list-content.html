@@ -1,18 +1,55 @@
 <div class="row row-pb-md">
 	<div class="col-md-12">
-		<ul id="gtco-post-list">
-			{{ range .Paginator.Pages }}
-			<li class="{{ if  eq .Params.span 1 }}full{{else}} {{ if  eq .Params.span .333}} one-third{{else}}two-third{{end}}{{end}} entry animate-box" data-animate-effect="fadeIn"> 
-				<a href="single.html">
-					<div class="entry-img" style="background-image: url(/images/img_1.jpg"></div>
-					<div class="entry-desc">
-						<h3>{{ .Title }}</h3>
-						<p>{{ if  eq .Params.span 1 }}{{ .Summary|truncate 500 }}{{else}} {{ if  eq .Params.span .667}} {{ .Summary|truncate 400 }}{{else}}{{ .Summary|truncate 200 }}{{end}}{{end}}</p>
-					</div>
-				</a>
-				<a href="#" class="post-meta">Business  <span class="date-posted">4 days ago</span></a>
-			</li>
-			{{ end }}
-		</ul>	
+		<div class="col-md-8">
+			<ul id="gtco-post-list">
+				{{ range .Paginator.Pages }}
+				<li class="full entry animate-box" data-animate-effect="fadeIn">
+					<a href="single.html">
+						<div class="entry-img" style="background-image: url(/images/img_1.jpg"></div>
+						<div class="entry-desc">
+							<h3>{{ .Title }}</h3>
+							<p>{{ if  eq .Params.span 1 }}{{ .Summary|truncate 500 }}{{else}} {{ if  eq .Params.span .667}} {{ .Summary|truncate 400 }}{{else}}{{ .Summary|truncate 200 }}{{end}}{{end}}</p>
+						</div>
+					</a>
+					<a href="#" class="post-meta">Business  <span class="date-posted">4 days ago</span></a>
+				</li>
+				{{ end }}
+			</ul>
+		</div>
+		<div class="col-md-4">
+				<ul id="gtco-post-list">
+					<li class="full vertical animate-box entry" data-animate-effect="fadeIn">
+						<a href="#">
+							<div class="entry-img" style="background-image: url(/images/img_3.jpg"></div>
+							<div class="entry-desc">
+								<h3>How Web Hosting Can Impact Page Load Speed</h3>
+								<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+							</div>
+						</a>
+						<a href="#" class="post-meta">Business  <span class="date-posted">4 days ago</span></a>
+					</li>
+					<li class="full vertical animate-box entry" data-animate-effect="fadeIn">
+						<a href="#">
+							<div class="entry-img" style="background-image: url(/images/img_4.jpg"></div>
+							<div class="entry-desc">
+								<h3>How Web Hosting Can Impact Page Load Speed</h3>
+								<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+							</div>
+						</a>
+						<a href="#" class="post-meta">Business  <span class="date-posted">4 days ago</span></a>
+					</li>
+					<li class="full vertical animate-box entry" data-animate-effect="fadeIn">
+						<a href="#">
+							<div class="entry-img" style="background-image: url(/images/img_5.jpg"></div>
+							<div class="entry-desc">
+								<h3>How Web Hosting Can Impact Page Load Speed</h3>
+								<p>She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+							</div>
+						</a>
+						<a href="#" class="post-meta">Business  <span class="date-posted">4 days ago</span></a>
+					</li>
+				</ul>	
+			</div>
+
 	</div>
 </div>
