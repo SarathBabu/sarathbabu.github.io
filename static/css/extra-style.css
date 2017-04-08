@@ -64,6 +64,54 @@
 }
 
 
+ul#sbghio-tag-list {
+  list-style: none;
+  margin-left: -2%;
+  display: block;
+  width: 100%;
+}
+
+ul#sbghio-tag-list li{
+  display: inline-block;
+}
+
+.sbghio-tag-title {
+  margin: 0 0 10px 0;
+  width: 100%;
+  margin-left: -2%;
+} 
+
+.sbghio-tag-title h3 {
+  border-bottom: 1px solid #000;
+  margin-left: 2%;
+}
+
+.sbghio-tag-btn {
+  border-bottom: none !important;
+  text-transform: lowercase;
+  margin-bottom: 20px;
+  font-size: 14px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  padding: 2px 10px 2px 10px;
+  border: 1px solid #08b1f7 !important;
+  text-align: center;
+  line-height: 100%;
+  background: transparent;
+  color: #2a2e37;
+}
+
+
+.sbghio-tag-btn:hover, .sbghio-tag-btn:active, .sbghio-tag-btn:focus {
+  background: #28bbf8;
+  border-color: #28bbf8;
+  color: #fff
+}
+
+
 
 /*CSS from Verb*/
 #gtco-header,
@@ -289,9 +337,14 @@ article .gtco-meta.gtco-date {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+article .content-article p {
+  text-align: justify;
+}
+
 article .content-article {
   padding-top: 1em;
 }
+
 article .content-article a {
   text-decoration: underline;
 }
@@ -475,9 +528,11 @@ figure figcaption {
   padding: 30px;
   margin-bottom: 40px;
 }
+
 .entry p {
   color: #1a1a1a;
   line-height: 1.9;
+  text-align: justify;
 }
 .entry.full {
   display: table;
