@@ -115,9 +115,12 @@ ul#sbghio-tag-list li{
 
 .sbghio-resume {
   margin-top: -140px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #eae8e7;
 }
 
 .sbghio-resume-img {
@@ -142,9 +145,22 @@ ul#sbghio-tag-list li{
   width: 100%;
 }
 
+.sbghio-resume .main .section {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 
 .sbghio-resume .sidebar .row .section .section-item-details{
   border-bottom: 1px solid #4d7c8a;
+}
+
+.sbghio-resume .main  .section .section-item-details{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .sbghio-resume p {
@@ -153,6 +169,10 @@ ul#sbghio-tag-list li{
 
 .sbghio-resume .sidebar i {
   font-size: 24px;
+}
+
+.sbghio-resume .main i {
+  font-size: 32px;
 }
 
 .sbghio-resume .section-icon {
@@ -192,6 +212,42 @@ ul#sbghio-tag-list li{
   margin-left: 50%;
   margin-top:-5px;
 }
+
+.work {
+    padding-right: 15px;
+    border-bottom: 1px solid #4d7c8a;
+    margin-top: 15px;
+    display: table;
+}
+
+.work h3 {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+.work h4 {
+  display: block;
+  font-size: 12px;
+  line-height: 2;
+  color: #73b0de;
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.work span {
+  font-size: 12px;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 
 
 @media only screen and (min-width: 992px){
