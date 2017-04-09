@@ -1,12 +1,64 @@
-<div id="fh5co-main">   
+<div id="fh5co-main" class="sbghio-resume-main">   
     <div class="container">
-        <div class="col-md-12 mt-negative">
-            <div class="text-left content-article">
-                <div class="row">
-                    {{ .Content }}
+        <div class="row">
+            <div class="col-md-12 sbghio-resume">
+                <div class="col-md-4 sidebar">
+                    <div class="row">
+                        <div class="sbghio-resume-img">
+                            <img src="/images/img_3.jpg">
+                        </div>
+                        <div class="section">
+                            <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-user"></i></div>
+                            <div class="col-sd-12 col-md-9 section-item-details"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua . Ld do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></div>
+                        </div>
+                        <div class="section">
+                            <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-phone"></i></div>
+                            <div class="col-sd-12 col-md-9 section-item-details">
+                                <div class="personal">
+                                    <h4>+91 9745530043</h4>
+
+                                    <span >mobile</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-envelope"></i></div>
+                            <div class="col-sd-12 col-md-9 section-item-details">
+                                <div class="personal">
+                                    <h4>sarathbabu.in@gmail.com</h4>
+                                    <span >personal</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-heart"></i></div>
+                            <div class="col-sd-12 col-md-9 section-item-details">
+                                <div class="heading">
+                                    <h3>Technical Skills</h3>
+                                </div>
+                                <div class="skills">
+                                    <span>Java</span>
+                                    <div class = "progress">
+                                        <div class="determinate" style="width: 70%;">
+                                            <i class="fa fa-circle"></i>
+                                        </div>
+                                    </div>
+                                    <span>Java</span>
+                                    <div class = "progress">
+                                        <div class="determinate" style="width: 70%;">
+                                            <i class="fa fa-circle"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                    </div>
                 </div>
             </div>
         </div>
+        {{ template "partials/commons/page-footer.html" .}}
     </div>
-    {{ template "partials/commons/page-footer.html" .}}
-</div>

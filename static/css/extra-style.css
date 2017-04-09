@@ -113,6 +113,101 @@ ul#sbghio-tag-list li{
 
 
 
+.sbghio-resume {
+  margin-top: -140px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.sbghio-resume-img {
+  width: 100%;
+}
+
+.sbghio-resume-img img{
+  width: 100%;
+}
+
+
+.sbghio-resume .sidebar .row {
+  background: #5da4d9;
+  color: #ffffff;
+  display: block;
+  position: relative;
+}
+
+.sbghio-resume .sidebar .row .section {
+  margin-top: 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+
+.sbghio-resume .sidebar .row .section .section-item-details{
+  border-bottom: 1px solid #4d7c8a;
+}
+
+.sbghio-resume p {
+  text-align: justify;
+}
+
+.sbghio-resume .sidebar i {
+  font-size: 24px;
+}
+
+.sbghio-resume .section-icon {
+  display: inherit;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.section-item-details .personal{
+  margin-bottom: 15px;
+}
+
+.section-item-details .personal h4{
+  margin: 0;
+}
+
+.section-item-details .personal span{
+  color: #175771;
+}
+
+.section-item-details .skills .progress {
+  height: 2px;
+  background: #31708f;
+  margin-top: 6px;
+}
+
+.section-item-details .skills .progress .determinate{
+  height: 2px;
+  background: #ffffff;
+  position: absolute;
+}
+
+.section-item-details .skills .progress .fa{
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  margin-left: 50%;
+  margin-top:-5px;
+}
+
+
+@media only screen and (min-width: 992px){
+  .sidebar .section-item-details {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px){
+  .sbghio-resume-main .container {
+    width: 70%;
+  }
+}
+
+
+
 /*CSS from Verb*/
 #gtco-header,
 #gtco-counter,
