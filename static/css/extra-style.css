@@ -120,6 +120,7 @@ ul#sbghio-tag-list li{
   line-height: 1.5;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-right: 0;
   background: #eae8e7;
 }
 
@@ -151,10 +152,11 @@ ul#sbghio-tag-list li{
   background: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 
-.sbghio-resume .sidebar .row .section .section-item-details{
+.sbghio-resume .sidebar .row .section:not(:last-child) .section-item-details{
   border-bottom: 1px solid #4d7c8a;
 }
 
@@ -214,10 +216,14 @@ ul#sbghio-tag-list li{
 }
 
 .work {
-    padding-right: 15px;
-    border-bottom: 1px solid #4d7c8a;
-    margin-top: 15px;
-    display: table;
+  padding-right: 15px;
+  margin-top: 15px;
+  display: block;
+  width: 100%;
+}
+
+.work:not(:last-child) {
+  border-bottom: 1px solid #4d7c8a;
 }
 
 .work h3 {
@@ -244,6 +250,7 @@ ul#sbghio-tag-list li{
   line-height: 1.2;
   margin: 0;
   font-weight: 600;
+  margin-left: 4px;
   font-family: 'Roboto', sans-serif;
 }
 

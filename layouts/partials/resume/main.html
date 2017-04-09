@@ -9,27 +9,31 @@
                         </div>
                         <div class="section">
                             <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-user"></i></div>
-                            <div class="col-sd-12 col-md-9 section-item-details"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua . Ld do eiusmod tempor incididunt ut labore et dolore magna aliqua</p></div>
+                            <div class="col-sd-12 col-md-9 section-item-details">
+                                <p>{{ .Params.about_me }}</p>
+                            </div>
                         </div>
                         <div class="section">
                             <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-phone"></i></div>
                             <div class="col-sd-12 col-md-9 section-item-details">
+                                {{ range .Params.contacts}}
                                 <div class="personal">
-                                    <h4>+91 9745530043</h4>
-
-                                    <span >mobile</span>
-
+                                    <h4>{{ .number }}</h4>
+                                    <span >{{ .type }}</span>
                                 </div>
+                                {{ end }}
                             </div>
                         </div>
 
                         <div class="section">
                             <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-envelope"></i></div>
                             <div class="col-sd-12 col-md-9 section-item-details">
+                                {{ range .Params.emails}}
                                 <div class="personal">
-                                    <h4>sarathbabu.in@gmail.com</h4>
-                                    <span >personal</span>
+                                    <h4>{{ .email }}</h4>
+                                    <span >{{ .type }}</span>
                                 </div>
+                                {{ end }}
                             </div>
                         </div>
                         <div class="section">
@@ -39,18 +43,14 @@
                                     <h3>Technical Skills</h3>
                                 </div>
                                 <div class="skills">
-                                    <span>Java</span>
+                                    {{ range .Params.skills}}
+                                    <span>{{ .name }}</span>
                                     <div class = "progress">
-                                        <div class="determinate" style="width: 70%;">
+                                        <div class="determinate" style="width: {{ .level }}%;">
                                             <i class="fa fa-circle"></i>
                                         </div>
                                     </div>
-                                    <span>Java</span>
-                                    <div class = "progress">
-                                        <div class="determinate" style="width: 70%;">
-                                            <i class="fa fa-circle"></i>
-                                        </div>
-                                    </div>
+                                    {{ end }}
                                 </div>
                             </div>
                         </div>
@@ -63,21 +63,32 @@
                             <div class="heading">
                                 <h2>Work Experience</h2>
                             </div>
+                            {{ range .Params.work }}
                             <div class="work">
-                                <h3>Innovation Engineer</h3>
-                                <span >@Agileblaze Technologies</span>
-                                <h4>JAN 2015 - JAN 2017</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h3>{{ .position }}</h3>
+                                <span >@{{ .company }}</span>
+                                <h4>{{ .from }} - {{ .to }}</h4>
+                                <p>{{ .desc }}</p>
                             </div>
-                            <div class="work">
-                                <h3>Innovation Engineer</h3>
-                                <span >@Agileblaze Technologies</span>
-                                <h4>JAN 2015 - JAN 2017</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
+                            {{ end }}
                         </div>
                     </div>
-
+                    <div class="section">
+                        <div class="col-sd-12 col-md-2 section-icon"><i class="fa fa-graduation-cap"></i></div>
+                        <div class="col-sd-12 col-md-10 section-item-details">
+                            <div class="heading">
+                                <h2>Education</h2>
+                            </div>
+                            {{ range .Params.education }}
+                            <div class="work">
+                                <h3>{{ .course }}</h3>
+                                <span>@{{ .institution }}</span>
+                                <h4>{{ .from }} - {{ .to }}</h4>
+                                <p/>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
