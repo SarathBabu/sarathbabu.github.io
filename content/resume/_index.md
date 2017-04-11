@@ -11,25 +11,28 @@ about_me = "I am a programming enthusiastic person. Happy when the code works as
 
 [skills.0]
     name = "Java"
-    level = 80
+    level = 60
 [skills.1]
+    name = "Android"
+    level = 80
+[skills.2]
     name = "Python"
     level = 20
-[skills.2]
+[skills.3]
     name = "Java Script"
     level = 40
-[skills.3]
+[skills.4]
     name = "HTML"
     level = 40
-[skills.4]
+[skills.5]
     name = "CSS3"
     level = 50
-[skills.5]
+[skills.6]
     name = "MYSQL"
     level = 40
 
 [work.0]
-    position = "Inoovation Engineer"
+    position = "Innovation Engineer"
     company = "Agileblaze Technologies"
     from = "JAN 2015"
     to = "JAN 2017"
@@ -45,6 +48,10 @@ about_me = "I am a programming enthusiastic person. Happy when the code works as
     institution = "GEC Idukki"
     from = "JAN 2015"
     to = "JAN 2017"
+
+[interests.0]
+    icon = 
+    info = "Movies"
 
 
 +++

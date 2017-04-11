@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <div class="section">
-                            <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-heart"></i></div>
+                            <div class="col-sd-12 col-md-3 section-icon"><i class="fa fa-list-ul"></i></div>
                             <div class="col-sd-12 col-md-9 section-item-details">
                                 <div class="heading">
                                     <h3>Technical Skills</h3>
@@ -81,6 +81,22 @@
                             </div>
                             {{ range .Params.education }}
                             <div class="work">
+                                <h3>{{ .course }}</h3>
+                                <span>@{{ .institution }}</span>
+                                <h4>{{ .from }} - {{ .to }}</h4>
+                                <p/>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="col-sd-12 col-md-2 section-icon"><i class="fa fa-heart"></i></div>
+                        <div class="col-sd-12 col-md-10 section-item-details">
+                            <div class="heading">
+                                <h2>Interests</h2>
+                            </div>
+                            {{ range .Params.interests }}
+                            <div class="interest">
                                 <h3>{{ .course }}</h3>
                                 <span>@{{ .institution }}</span>
                                 <h4>{{ .from }} - {{ .to }}</h4>

@@ -146,6 +146,11 @@ ul#sbghio-tag-list li{
   width: 100%;
 }
 
+.sbghio-resume .main {
+  color: #4c4c4c;
+}
+
+
 .sbghio-resume .main .section {
   display: inline-block;
   width: 100%;
