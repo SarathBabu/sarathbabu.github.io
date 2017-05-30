@@ -1,5 +1,6 @@
 +++
 about_me = "I am a programming enthusiastic person. Happy when the code works as expected, and excited when get introduced to new programming ideas."
+title = "Resume"
 
 [emails.0]
     email = "sarathbabu.in@gmail.com"
@@ -35,14 +36,15 @@ about_me = "I am a programming enthusiastic person. Happy when the code works as
     position = "Innovation Engineer"
     company = "Agileblaze Technologies"
     from = "JAN 2015"
-    to = "JAN 2017"
-    desc = "Job description"
+    to = "Present"
+    desc = "Android, Java, Ionic, AngularJS."
 
 [education.0]
     course = "M.Tech (CS)"
     institution = "NIT Calicut"
     from = "JAN 2015"
     to = "JAN 2017"
+
 [education.1]
     course = "B.Tech (CS)"
     institution = "GEC Idukki"
@@ -50,8 +52,12 @@ about_me = "I am a programming enthusiastic person. Happy when the code works as
     to = "JAN 2017"
 
 [interests.0]
-    icon = 
+    icon = "fa-film"
     info = "Movies"
-
-
+[interests.1]
+    icon = "fa-users"
+    info = "Gatherings"
+[interests.2]
+    icon = "fa-glass"
+    info = "Foods"
 +++

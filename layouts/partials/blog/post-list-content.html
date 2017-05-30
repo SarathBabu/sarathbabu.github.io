@@ -5,7 +5,7 @@
 				{{ range .Paginator.Pages }}
 				<li class="full entry animate-box" data-animate-effect="fadeIn">
 					<a href="single.html">
-						<div class="entry-img" style="background-image: url(/images/img_1.jpg"></div>
+						<div class="entry-img" style="background-image: url(/images/blog.jpg"></div>
 						<div class="entry-desc">
 							<h3>{{ .Title }}</h3>
 							<p>{{ if  eq .Params.span 1 }}{{ .Summary|truncate 500 }}{{else}} {{ if  eq .Params.span .667}} {{ .Summary|truncate 400 }}{{else}}{{ .Summary|truncate 200 }}{{end}}{{end}}</p>

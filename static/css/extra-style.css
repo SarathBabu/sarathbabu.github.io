@@ -116,7 +116,7 @@ ul#sbghio-tag-list li{
 .sbghio-resume {
   margin-top: -140px;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -170,6 +170,7 @@ ul#sbghio-tag-list li{
   padding-right: 0;
 }
 
+
 .sbghio-resume p {
   text-align: justify;
 }
@@ -220,6 +221,11 @@ ul#sbghio-tag-list li{
   margin-top:-5px;
 }
 
+.interest h4,.interest i{
+  display: block;
+  text-align: center;
+}
+
 .work {
   padding-right: 15px;
   margin-top: 15px;
@@ -246,7 +252,6 @@ ul#sbghio-tag-list li{
   line-height: 2;
   color: #73b0de;
   margin: 0;
-  font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -258,8 +263,6 @@ ul#sbghio-tag-list li{
   margin-left: 4px;
   font-family: 'Roboto', sans-serif;
 }
-
-
 
 
 @media only screen and (min-width: 992px){

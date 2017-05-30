@@ -1,4 +1,4 @@
 +++
-title="Samaple Text"
-banner="/images/banner.jpg"
+title="Blog"
+banner="/images/blog.jpg"
 +++
