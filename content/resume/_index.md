@@ -1,6 +1,6 @@
 +++
 about_me = "I am a programming enthusiastic person. Happy when the code works as expected, and excited when get introduced to new programming ideas."
-title = "Resume"
+title = "Résumé"
 
 [emails.0]
     email = "sarathbabu.in@gmail.com"
@@ -34,9 +34,9 @@ title = "Resume"
 
 [work.0]
     position = "Innovation Engineer"
-    company = "Agileblaze Technologies"
+    company = "Agileblaze Technologies Pvt. Ltd."
     from = "JAN 2015"
-    to = "Present"
+    to = "JUN 2017"
     desc = "Android, Java, Ionic, AngularJS."
 
 [education.0]

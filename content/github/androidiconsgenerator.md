@@ -4,6 +4,17 @@ github_url="https://github.com/SarathBabu/android-icon-generator"
 github_image = "/images/github_1.jpg"
 +++
 
-A simple python script to genearte the generic icons for android applications. You don't need any online application and downloding of archives and extraction. You can simply use this script to generate icons fron PNG images with which ever size (dpi value) you need and the color you like. You can also specify padding on the icon (dpi value) if you want. All you are left to do is simple copy paste the drawable folders into the project directory.
+In Android application if we want to display an icon on it we need to provide different sized
+image of the same icon. Generating those resized icons using Photoshop, Gimp or similar tools
+are time consuming and when we need to change the size of the icon we need to redo the same
+process again. There are online tools available but that also require uploading of the icon and
+downloading the archive and extracting and copying to the project folder.
 
-Just think how many times you need to change the size and/or color of icons in your application while development. If you depend on an online application it will be a boring task of uploading and downloading and extracting.
+The Android Icons Generator is a handy tool for developers to create resized icons for Android
+applications. The CLI can accept parameters like size (in dp), color (# code) and the name in
+which the icon file should generate and it will generate the icons in android specific drawable
+directories. The only thing that left for the developer is to copy these folders into the project
+directory.
+
+This script uses ImageMagick​ ®​ , so before using this script we need to install ImageMagick​ ®
+in the system.

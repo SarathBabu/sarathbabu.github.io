@@ -4,5 +4,13 @@ playstore="https://play.google.com/store/apps/details?id=calendar.hijrialbirrah&
 carousel = ["/images/hijricalendar_1.png","/images/hijricalendar_2.png"]
 +++
 
-It is a calendar application that can generate the hijra calendars upto 20784AD. This applcation is a realization of algorithms developed by Persion Name. Paerson name is an Indian, who was studying about the hijra calendar system for long time.It is the only application that can generate the hijra calendar upto 20784AD.
+Hijri Al Bir'rah is the only app that is capable of finding dates from 10000 BC/BH to 20874
+AD/AH.
+
+The application can show the gregorian calendar showing the hijra dates also hijra calendar
+showing gregorian dates. It helps the users to know the corresponding hijra date of a gregorian
+date and vice versa.
+
+This app takes you through Julian and gregorian calendar ranging from 10000 BC to the year
+20874 AD
 

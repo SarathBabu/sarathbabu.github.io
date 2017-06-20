@@ -4,4 +4,10 @@ baseURL = "https://sarathbabu.github.io/"
 paginate = 5
 [params]
     home = "Sarath Babu"
+    
+    android_text="Android applications which I worked in my free time"
+    github_text="Open source projects which I am working on."
+    facebook_url = ""
+    github_ulr = ""
+    linkedin_url = ""
 
