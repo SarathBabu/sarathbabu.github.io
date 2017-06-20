@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Android Apps on A Test Site</title>
+    <title>Android Apps on Sarath Babu</title>
     <link>https://sarathbabu.github.io/android/index.xml</link>
-    <description>Recent content in Android Apps on A Test Site</description>
+    <description>Recent content in Android Apps on Sarath Babu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://sarathbabu.github.io/android/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sarathbabu.github.io/android/calendar/</guid>
-      <description>&lt;p&gt;It is a calendar application that can generate the hijra calendars upto 20784AD. This applcation is a realization of algorithms developed by Persion Name. Paerson name is an Indian, who was studying about the hijra calendar system for long time.It is the only application that can generate the hijra calendar upto 20784AD.&lt;/p&gt;
+      <description>&lt;p&gt;Hijri Al Bir&amp;rsquo;rah is the only app that is capable of finding dates from 10000 BC/BH to 20874
+AD/AH.&lt;/p&gt;
+
+&lt;p&gt;The application can show the gregorian calendar showing the hijra dates also hijra calendar
+showing gregorian dates. It helps the users to know the corresponding hijra date of a gregorian
+date and vice versa.&lt;/p&gt;
+
+&lt;p&gt;This app takes you through Julian and gregorian calendar ranging from 10000 BC to the year
+20874 AD&lt;/p&gt;
 </description>
     </item>
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Github repos on A Test Site</title>
+    <title>Github repos on Sarath Babu</title>
     <link>https://sarathbabu.github.io/github/index.xml</link>
-    <description>Recent content in Github repos on A Test Site</description>
+    <description>Recent content in Github repos on Sarath Babu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://sarathbabu.github.io/github/index.xml" rel="self" type="application/rss+xml" />
@@ -14,9 +14,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sarathbabu.github.io/github/androidiconsgenerator/</guid>
-      <description>&lt;p&gt;A simple python script to genearte the generic icons for android applications. You don&amp;rsquo;t need any online application and downloding of archives and extraction. You can simply use this script to generate icons fron PNG images with which ever size (dpi value) you need and the color you like. You can also specify padding on the icon (dpi value) if you want. All you are left to do is simple copy paste the drawable folders into the project directory.&lt;/p&gt;
+      <description>&lt;p&gt;In Android application if we want to display an icon on it we need to provide different sized
+image of the same icon. Generating those resized icons using Photoshop, Gimp or similar tools
+are time consuming and when we need to change the size of the icon we need to redo the same
+process again. There are online tools available but that also require uploading of the icon and
+downloading the archive and extracting and copying to the project folder.&lt;/p&gt;
 
-&lt;p&gt;Just think how many times you need to change the size and/or color of icons in your application while development. If you depend on an online application it will be a boring task of uploading and downloading and extracting.&lt;/p&gt;
+&lt;p&gt;The Android Icons Generator is a handy tool for developers to create resized icons for Android
+applications. The CLI can accept parameters like size (in dp), color (# code) and the name in
+which the icon file should generate and it will generate the icons in android specific drawable
+directories. The only thing that left for the developer is to copy these folders into the project
+directory.&lt;/p&gt;
+
+&lt;p&gt;This script uses ImageMagick​ ®​ , so before using this script we need to install ImageMagick​ ®
+in the system.&lt;/p&gt;
 </description>
     </item>
     
@@ -26,9 +37,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sarathbabu.github.io/github/easyandroid/</guid>
-      <description>&lt;p&gt;This android library will lessen your soding efforts to do SQLite database migration, Requesting runtime pemission on devices with Android operating system following Lollipop, Runtime tracking the netwok status change. All these are usual coding requirements in an Android application development, it true that we all are already femiliar with these operations an wrote code manytime for these operations.&lt;/p&gt;
+      <description>&lt;p&gt;This project is intent to help developer to reduce the code in their project and make development
+easy. So I added basic functional requirements that are generally needed in many application in
+to this application. These functional requirements are in following areas&lt;/p&gt;
 
-&lt;p&gt;My effort is to make these functionalities(and many others in future) into a single resusable package which can be easily interated into the applications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Runtime Permissions on devices with Android versions above Lollipop.&lt;/li&gt;
+&lt;li&gt;Database schema generation and updation.&lt;/li&gt;
+&lt;li&gt;Getting updates on connectivity status&lt;/li&gt;
+&lt;li&gt;Developing location aware applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This library encapsulates all these functionalities and developers can add this into their project
+using gradle.&lt;/p&gt;
 </description>
     </item>
     

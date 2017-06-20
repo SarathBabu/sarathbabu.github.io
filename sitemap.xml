@@ -2,7 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sarathbabu.github.io/blog/fifth/</loc>
+    <lastmod>2017-02-21T11:27:27-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sarathbabu.github.io/blog/first/</loc>
+    <lastmod>2017-02-21T11:27:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarathbabu.github.io/blog/fourth/</loc>
     <lastmod>2017-02-21T11:27:27-04:00</lastmod>
   </url>
   
@@ -12,14 +22,13 @@
   </url>
   
   <url>
-    <loc>https://sarathbabu.github.io/blog/third/</loc>
+    <loc>https://sarathbabu.github.io/blog/sixth/</loc>
     <lastmod>2017-02-21T11:27:27-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://sarathbabu.github.io/</loc>
+    <loc>https://sarathbabu.github.io/blog/third/</loc>
     <lastmod>2017-02-21T11:27:27-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -28,6 +37,11 @@
   
   <url>
     <loc>https://sarathbabu.github.io/github/androidiconsgenerator/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarathbabu.github.io/blog/</loc>
+    <lastmod>2017-02-21T11:27:27-04:00</lastmod>
   </url>
   
   <url>
@@ -43,8 +57,13 @@
   </url>
   
   <url>
-    <loc>https://sarathbabu.github.io/blog/</loc>
+    <loc>https://sarathbabu.github.io/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarathbabu.github.io/</loc>
     <lastmod>2017-02-21T11:27:27-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

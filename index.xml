@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Test Site</title>
+    <title>Sarath Babu</title>
     <link>https://sarathbabu.github.io/index.xml</link>
-    <description>Recent content on A Test Site</description>
+    <description>Recent content on Sarath Babu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Feb 2017 11:27:27 -0400</lastBuildDate>
@@ -11,10 +11,44 @@
     
     <item>
       <title>First blog</title>
+      <link>https://sarathbabu.github.io/blog/fifth/</link>
+      <pubDate>Tue, 21 Feb 2017 11:27:27 -0400</pubDate>
+      
+      <guid>https://sarathbabu.github.io/blog/fifth/</guid>
+      <description>
+
+&lt;h1 id=&#34;a-sample-heading&#34;&gt;A sample heading&lt;/h1&gt;
+
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;ldquo;Lorem ipsum dolor sit amet..&amp;rdquo;, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First blog</title>
       <link>https://sarathbabu.github.io/blog/first/</link>
       <pubDate>Tue, 21 Feb 2017 11:27:27 -0400</pubDate>
       
       <guid>https://sarathbabu.github.io/blog/first/</guid>
+      <description>
+
+&lt;h1 id=&#34;a-sample-heading&#34;&gt;A sample heading&lt;/h1&gt;
+
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;ldquo;Lorem ipsum dolor sit amet..&amp;rdquo;, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sarathbabu.github.io/images/img_3.jpg&#34; alt=&#34;post-img&#34; title=&#34;Logo Title Text 1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First blog</title>
+      <link>https://sarathbabu.github.io/blog/fourth/</link>
+      <pubDate>Tue, 21 Feb 2017 11:27:27 -0400</pubDate>
+      
+      <guid>https://sarathbabu.github.io/blog/fourth/</guid>
       <description>
 
 &lt;h1 id=&#34;a-sample-heading&#34;&gt;A sample heading&lt;/h1&gt;
@@ -31,6 +65,22 @@
       <pubDate>Tue, 21 Feb 2017 11:27:27 -0400</pubDate>
       
       <guid>https://sarathbabu.github.io/blog/second/</guid>
+      <description>
+
+&lt;h1 id=&#34;a-sample-heading&#34;&gt;A sample heading&lt;/h1&gt;
+
+&lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &amp;ldquo;Lorem ipsum dolor sit amet..&amp;rdquo;, comes from a line in section 1.10.32.&lt;/p&gt;
+
+&lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &amp;ldquo;de Finibus Bonorum et Malorum&amp;rdquo; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First blog</title>
+      <link>https://sarathbabu.github.io/blog/sixth/</link>
+      <pubDate>Tue, 21 Feb 2017 11:27:27 -0400</pubDate>
+      
+      <guid>https://sarathbabu.github.io/blog/sixth/</guid>
       <description>
 
 &lt;h1 id=&#34;a-sample-heading&#34;&gt;A sample heading&lt;/h1&gt;
@@ -63,9 +113,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sarathbabu.github.io/github/androidiconsgenerator/</guid>
-      <description>&lt;p&gt;A simple python script to genearte the generic icons for android applications. You don&amp;rsquo;t need any online application and downloding of archives and extraction. You can simply use this script to generate icons fron PNG images with which ever size (dpi value) you need and the color you like. You can also specify padding on the icon (dpi value) if you want. All you are left to do is simple copy paste the drawable folders into the project directory.&lt;/p&gt;
+      <description>&lt;p&gt;In Android application if we want to display an icon on it we need to provide different sized
+image of the same icon. Generating those resized icons using Photoshop, Gimp or similar tools
+are time consuming and when we need to change the size of the icon we need to redo the same
+process again. There are online tools available but that also require uploading of the icon and
+downloading the archive and extracting and copying to the project folder.&lt;/p&gt;
 
-&lt;p&gt;Just think how many times you need to change the size and/or color of icons in your application while development. If you depend on an online application it will be a boring task of uploading and downloading and extracting.&lt;/p&gt;
+&lt;p&gt;The Android Icons Generator is a handy tool for developers to create resized icons for Android
+applications. The CLI can accept parameters like size (in dp), color (# code) and the name in
+which the icon file should generate and it will generate the icons in android specific drawable
+directories. The only thing that left for the developer is to copy these folders into the project
+directory.&lt;/p&gt;
+
+&lt;p&gt;This script uses ImageMagick​ ®​ , so before using this script we need to install ImageMagick​ ®
+in the system.&lt;/p&gt;
 </description>
     </item>
     
@@ -75,9 +136,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sarathbabu.github.io/github/easyandroid/</guid>
-      <description>&lt;p&gt;This android library will lessen your soding efforts to do SQLite database migration, Requesting runtime pemission on devices with Android operating system following Lollipop, Runtime tracking the netwok status change. All these are usual coding requirements in an Android application development, it true that we all are already femiliar with these operations an wrote code manytime for these operations.&lt;/p&gt;
+      <description>&lt;p&gt;This project is intent to help developer to reduce the code in their project and make development
+easy. So I added basic functional requirements that are generally needed in many application in
+to this application. These functional requirements are in following areas&lt;/p&gt;
 
-&lt;p&gt;My effort is to make these functionalities(and many others in future) into a single resusable package which can be easily interated into the applications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Runtime Permissions on devices with Android versions above Lollipop.&lt;/li&gt;
+&lt;li&gt;Database schema generation and updation.&lt;/li&gt;
+&lt;li&gt;Getting updates on connectivity status&lt;/li&gt;
+&lt;li&gt;Developing location aware applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This library encapsulates all these functionalities and developers can add this into their project
+using gradle.&lt;/p&gt;
 </description>
     </item>
     
@@ -87,7 +158,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sarathbabu.github.io/android/calendar/</guid>
-      <description>&lt;p&gt;It is a calendar application that can generate the hijra calendars upto 20784AD. This applcation is a realization of algorithms developed by Persion Name. Paerson name is an Indian, who was studying about the hijra calendar system for long time.It is the only application that can generate the hijra calendar upto 20784AD.&lt;/p&gt;
+      <description>&lt;p&gt;Hijri Al Bir&amp;rsquo;rah is the only app that is capable of finding dates from 10000 BC/BH to 20874
+AD/AH.&lt;/p&gt;
+
+&lt;p&gt;The application can show the gregorian calendar showing the hijra dates also hijra calendar
+showing gregorian dates. It helps the users to know the corresponding hijra date of a gregorian
+date and vice versa.&lt;/p&gt;
+
+&lt;p&gt;This app takes you through Julian and gregorian calendar ranging from 10000 BC to the year
+20874 AD&lt;/p&gt;
 </description>
     </item>
     
